@@ -1,57 +1,75 @@
-<br>
-<br>
-
 <div align="center">
-<img width="150" alt="logotype" src="https://user-images.githubusercontent.com/28212972/128001084-508e446f-2814-4e1f-a5cb-09598f5a5bdc.png">
+![Project Logo](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
+<h1 align="center">Empress Wiki: Next-Generation Knowledge Management</h1>
+<p align="center">
+A dynamic, open-source application designed to revolutionize the creation, administration, and delivery of knowledge-based content.
+<br />
+<a href="https://grow.empress.eco/">Explore the Docs</a>
+·
+<a href="https://github.com/empress-eco/wiki/issues">Report Bug</a>
+·
+<a href="https://github.com/empress-eco/wiki/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+</p>
 </div>
 
-<br>
+## About The Project
 
----
+### 📖 Overview
+Empress Wiki is an innovative, open-source application designed to handle dynamic, text-intensive content such as documentation and knowledge bases. Equipped with a change approval mechanism and the capability to publish changes and new pages without downtime, it's the perfect tool for all your knowledge management needs.
 
-<div align="center">
- Wiki App built on the <a href= "https://frappeframework.com" >Frappe Framework</a> | <a href = "https://wiki-docs.frappe.cloud/use_on_frappe_cloud">Try on Frappe Cloud</a>
- 
- \
- [![Wiki](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/simple/w2jgcb/master&style=flat&logo=cypress)](https://cloud.cypress.io/projects/w2jgcb/runs)
- [![CI](https://github.com/frappe/wiki/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/frappe/wiki/actions/workflows/ci.yml)
-</div>
+### 🌟 Key Features
+- Create and manage Wiki Pages effortlessly
+- Author content in Rich Text for a superior user experience
+- Enjoy seamless control over Wiki Updates
+- Attach files with ease
+- Automatic Table of Contents generation
+- Optimize performance with caching
+- Custom Script Support via `Wiki Settings`
 
-## Introduction
+### 🛠 Built With
+Empress Wiki is powered by the following major frameworks/libraries:
+- [Framework](https://Empressframework.com)
 
-Frappe Wiki is an Open Source [Wiki](https://en.wikipedia.org/wiki/Wiki) app built on the <a href= "https://frappeframework.com" >Frappe Framework</a>. It is well suited to serve dynamic, text-heavy content like documentation and knowledge base. It allows publishing small changes and even new pages on the fly without downtime. It also maintains revision history and has a change approval mechanism.
+## Getting Started
 
-## Installation
+### Prerequisites
+Ensure you have Framework v14 or above installed on your machine.
 
-```bash
+### Installation
+Use these steps to get Empress Wiki up and running on your system:
+
+```sh
+# clone the repository
+$ git clone https://github.com/empress-eco/wiki.git
+
 # get app
-$ bench get-app https://github.com/frappe/wiki
+$ bench get-app wiki
 
 # install on site
 $ bench --site sitename install-app wiki
 ```
+> [!NOTE]
+> Use `version-14` branch with Framework v14 and for v14+, use the `master` branch.
 
-> [!NOTE]  
-> Use `version-14` branch with Frappe Framework v14 and for v14+ use `master` branch.
+## Usage
+Check out the 'Docs' section for detailed instructions on how to use the various features of Empress Wiki. For a visual guide, refer to the screenshots provided.
 
-## Features
+## Contributing
+We appreciate contributions! Here's how you can contribute:
 
-1. Create Wiki Pages
-2. Author content in Rich Text
-3. Set-up Controlled Wiki Updates
-5. Add attachments
-6. Table of Contents
-7. Caching
-8. Custom Script Support via `Wiki Settings`
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-## Screenshots
+## License and Acknowledgements
 
-### 1. Rendered Page
-<img width="1552" alt="wiki-rendered" src="https://github.com/frappe/wiki/assets/63963181/011e976e-b572-4d3a-82e8-374d26ecd0d0.png">
+### License
+This project is licensed under the MIT License, and your contributions will also be licensed under the same.
 
-### 2. Edit Page
-<img width="1552" alt="wiki-edit" src="https://github.com/frappe/wiki/assets/63963181/339d1422-6c99-450d-9e97-7348651abe63.png">
+### Acknowledgements
+- Our gratitude goes out to the [Empress Community](https://Empressframework.com/), whose groundbreaking work on essential tools has made this project possible.
+- A big thank you to all the contributors who have helped this project grow.
 
-#### License
-
-MIT
+<!-- MARKDOWN LINKS & IMAGES -->
